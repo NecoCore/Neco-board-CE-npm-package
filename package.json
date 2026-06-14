@@ -1,0 +1,20 @@
+{
+  "name": "@necocore/board-models",
+  "version": "1.0.0",
+  "description": "TypeScript models for Neco Board CE",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
