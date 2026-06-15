@@ -40,6 +40,24 @@ export interface ErrorMessageResponse {
     message: string;
 }
 
+// Files
+export interface TaskAttachmentItemResponse {
+    id: string;
+    taskId: string;
+    name: string;
+    type: string;
+    filePath: string;
+    createdAt: string;
+}
+
+export interface TaskImageItemResponse {
+    id: string;
+    taskId: string;
+    name: string;
+    imagePath: string;
+    createdAt: string;
+}
+
 // Projects
 export interface CreateProjectRequest {
     projectId: string;
